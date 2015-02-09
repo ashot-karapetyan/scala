@@ -1,8 +1,6 @@
 language: scala
+before_script: cd coursera/week2/funsets
  scala:
-   - "2.9.2"
-   - "2.8.2"
+   - 2.11.4
  jdk:
    - oraclejdk7
-   - openjdk7
-   - openjdk6
