@@ -4,3 +4,6 @@ before_script: cd coursera/week2/funsets
    - 2.11.4
  jdk:
    - oraclejdk7
+branches:
+  only:
+    - dev
